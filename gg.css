@@ -1,0 +1,138 @@
+body {
+  background-color: hsl(227, 75%, 14%);
+}
+.div-1 {
+  background-color: hsl(225, 23%, 24%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  padding: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+.img-1 {
+}
+.h-1 {
+  color: white;
+  margin-left: 90px;
+}
+
+.img5 {
+  min-width: 300px;
+}
+.div-2 {
+  background-color: hsl(227, 60%, 16%);
+  padding: 9px;
+  border-radius: 10px;
+}
+.div4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 90px;
+}
+.but1 {
+  background-color: hsl(3, 71%, 56%);
+  border: 0;
+  padding: 10px;
+  border-radius: 15px;
+  width: 45px;
+  padding: 5px;
+}
+.but2 {
+  background-color: hsl(225, 23%, 24%);
+  border: 0;
+  border-radius: 15px;
+  padding: 7px;
+  width: 60px;
+  margin-left: 5px;
+}
+.div-11 {
+  display: flex;
+}
+.div13 {
+}
+.div12 {
+  width: 300px;
+  margin-left: 30px;
+  height: 155px;
+  background-color: hsl(225, 23%, 24%);
+}
+.but10 {
+  margin-left: 13px;
+  background-color: hsl(226, 25%, 17%);
+  border: 1px solid rgb(88, 88, 88);
+  border-radius: 20px;
+  height: 25px;
+  width: 70px;
+  color: rgb(192, 191, 191);
+  margin-bottom: 1px;
+}
+.img10 {
+  margin-top: 15px;
+  height: 60px;
+  margin-left: 10px;
+}
+.h2 {
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: hsl(217, 61%, 90%);
+}
+.p10 {
+  margin-top: 1px;
+  margin-left: 10px;
+  color: grey;
+}
+.div14 {
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: hsl(3, 86%, 64%);
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
